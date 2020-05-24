@@ -36,7 +36,7 @@ app.get('/about', (req, res) => {
 })
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpItem: 'When you need a solution, contact IoT industries',
+        helpItem: 'Contact me for help',
         title: 'Help',
         name: 'Stuart Keeble'
     })
